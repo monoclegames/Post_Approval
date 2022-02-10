@@ -3,12 +3,12 @@ import { alias, equal } from "@ember/object/computed";
 import Controller from "@ember/controller";
 import ModalFunctionality from "discourse/mixins/modal-functionality";
 import DiscourseURL from "discourse/lib/url";
-import { default as computed } from "ember-addons/ember-computed-decorators";
+import { default as computed } from "discourse-common/utils/decorators";
 import { extractError } from "discourse/lib/ajax-error";
 import { ajax } from "discourse/lib/ajax";
 import Category from "discourse/models/category";
 import { next } from "@ember/runloop";
-import { observes } from "ember-addons/ember-computed-decorators";
+import { observes } from "discourse-common/utils/decorators";
 
 export default Controller.extend(ModalFunctionality, {
     topicName: null,
