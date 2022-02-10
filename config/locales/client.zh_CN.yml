@@ -1,0 +1,45 @@
+# encoding: utf-8
+
+zh_CN:
+  js:
+    post_approval:
+      button:
+        title: "审批帖子"
+        help: "完成此帖的审批流程"
+      settings:
+        title: "帖子审批"
+        redirect:
+          topic:
+            enabled: "将低信任等级的新主题重定向至荣誉管理员？"
+            message: "在重定向主题时要发送的信息"
+          reply:
+            enabled: "将低信任等级的新回复重定向至荣誉管理员？"
+            message: "在重定向回复时要发送的信息"
+          bump:
+            hours: "重定向顶帖这么长小时的主题的回复（0 = 禁用）"
+            message: "在重定向顶帖时要发送的信息"
+      user:
+        label: "帖子审批"
+        redirect:
+          title: "在请求完成时，重定向至："
+          options:
+            default: "（默认）"
+            approved_post: "核准的主题/回复"
+            pa_message: "请求信息"
+            inbox: "审批帖子收件箱"
+        sort_inversed: "按从旧到新排列审批帖子收件箱"
+      modal:
+        badge:
+          title: "为此帖授予帖子核准徽章"
+        title: "帖子审批"
+        topic:
+          error: "在创建新主题时出错。"
+          instructions: "您即将创建新主题来完成此请求。"
+          title: "核准为新主题"
+          topic_name: "新主题标题"
+          radio_label: "作为新主题"
+        reply:
+          error: "在创建新回复时出错。"
+          instructions: "请选择要将此请求添加为回复的主题。"
+          title: "核准为主题的回复"
+          radio_label: "作为主题的回复"

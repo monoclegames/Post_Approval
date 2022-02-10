@@ -1,0 +1,45 @@
+# encoding: utf-8
+
+en:
+  js:
+    post_approval:
+      button:
+        title: "Approve Post"
+        help: "Complete Post Approval procedure on this post"
+      settings:
+        title: "Post Approval"
+        redirect:
+          topic:
+            enabled: "Redirect new topics by low trust levels to post approval?"
+            message: "Message to send along when redirecting new topics"
+          reply:
+            enabled: "Redirect replies by low trust levels to post approval?"
+            message: "Message to send along when redirecting replies"
+          bump:
+            hours: "Redirect replies that bump topics by this many hours (0 = disabled)"
+            message: "Message to send along when redirecting bump posts"
+      user:
+        label: "Post Approval"
+        redirect:
+          title: "On completion of request, redirect to:"
+          options:
+            default: "(default)"
+            approved_post: "Approved topic/reply"
+            pa_message: "Stay in request message"
+            inbox: "Post approval inbox"
+        sort_inversed: "Sort post approval inbox from oldest to newest"
+      modal:
+        badge:
+          title: "Award Post Approval badge for this post"
+        title: "Post Approval"
+        topic:
+          error: "There was an error creating the new topic."
+          instructions: "You are about to complete this request by creating it as a new topic."
+          title: "Approve as New Topic"
+          topic_name: "New Topic Title"
+          radio_label: "As New Topic"
+        reply:
+          error: "There was an error creating the reply."
+          instructions: "Please choose the topic you'd like to move this request to as a reply."
+          title: "Approve as Reply To Topic"
+          radio_label: "As Reply To Topic"
